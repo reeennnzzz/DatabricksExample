@@ -371,4 +371,10 @@ spark.sql("CREATE TABLE IotDeviceData USING DELTA LOCATION '{0}'".format(delta_s
 
 # COMMAND ----------
 
+
 deltastream.stop()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC sample md
